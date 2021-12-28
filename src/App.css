@@ -1,0 +1,133 @@
+.table {
+  border: 1px black;
+  border-style: solid;
+  border-collapse: separate;
+}
+.splitScreen {
+  width: 65%;
+  border: 1px black;
+  border-style: solid;
+  display: grid;
+}
+.topPane {
+  grid-column: 1;
+  grid-row: 1;
+}
+.bottomPane {
+  grid-column: 2;
+  grid-row: 1;
+  margin-top: 14%;
+  position: relative;
+}
+
+.Main {
+  column-count: 2;
+}
+.AddUser {
+  width: fit-content;
+}
+
+.btn {
+  background-color: aqua;
+  height: 31px;
+  width: 49px;
+}
+.btndel {
+  display: inline-block;
+  background-color: red;
+  height: 26px;
+  width: 46px;
+  border: 1px solid black;
+  text-align: center;
+}
+.btnadd {
+  background-color: aqua;
+  height: auto;
+
+  width: 48px;
+}
+.input {
+  height: auto;
+  width: 164px;
+}
+
+.style {
+  width: auto;
+  color: black;
+}
+.style1 {
+  height: auto;
+  width: 220px;
+  background-color: white;
+  text-align: center;
+}
+.style1click {
+  height: auto;
+  width: 220px;
+  background-color: brown;
+  text-align: center;
+}
+
+.inputhob {
+  border-left: 1.5px solid black;
+  border-right: 1px solid black;
+
+  height: 25px;
+  width: 215px;
+  background-color: white;
+  text-align: center;
+}
+.inputyear {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+
+  height: 25px;
+  width: 80px;
+  background-color: white;
+  text-align: center;
+}
+.sel {
+  border-right: 1px solid black;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  height: 31px;
+  width: 113px;
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+.td2 {
+  display: inline-block;
+  width: 110px;
+  height: 26px;
+  margin-top: -3px;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+}
+.td3 {
+  display: inline-block;
+  width: 220px;
+  height: 26px;
+
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+}
+.td4 {
+  width: 85px;
+  height: 26px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+}
+.td5 {
+  height: 30px;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.test {
+  border: 1px solid black;
+}
